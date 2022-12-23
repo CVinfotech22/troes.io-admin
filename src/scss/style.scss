@@ -1,0 +1,82 @@
+// If you want to override variables do it here
+@import 'variables';
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+// Import CoreUI for React components library
+@import '@coreui/coreui/scss/coreui';
+
+// Import Chart.js custom tooltips styles
+@import '@coreui/chartjs/scss/coreui-chartjs';
+
+@import 'layout';
+@import 'example';
+
+// If you want to add custom CSS you can put it here.
+@import 'custom';
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.search_heading {
+  background-color: #fff;
+
+  padding: 30px 10px;
+}
+
+.customer_information thead {
+  background: '#F5F8FF' !important;
+  z-index: '1000';
+  padding: 0;
+}
+
+.customer_information thead tr th {
+  padding: 20px 0px;
+  color: #000;
+}
+.customer_wrapper {
+  // background: #fff;
+  padding: 0px 0px;
+}
+.search_text {
+  height: 37px;
+  border-radius: 9px;
+  margin-bottom: 13px;
+  border: solid #ccc 1px;
+  width: 200px;
+  padding-left: 14px;
+}
+.customer_wrapper button {
+  background: transparent;
+  border: 0px;
+}
+
+.delete__icon {
+  color: red;
+  border: none;
+}
+.filter__icon {
+  font-size: 30px;
+  // color: #324253;
+  border: none;
+  margin-bottom: 13px;
+  background-color: #fff;
+  // margin-left: '40px';
+}
+.customer_wrapper button {
+  background: transparent;
+  // border: 0px;
+  // margin: auto;
+  // display: block;
+}
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm,
+.container {
+  max-width: 100%;
+}

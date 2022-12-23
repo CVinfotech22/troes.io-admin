@@ -1,0 +1,278 @@
+.update__Location {
+  border: none;
+  background: #fff;
+
+  padding-left: 16px;
+}
+
+.location__information {
+  padding: 30px 0px;
+}
+.t_Name {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.location__acount {
+  font-weight: bolder;
+  font-size: 30px;
+  color: black;
+}
+.delete__Location__of {
+  border: none;
+  background: #fff;
+  padding-left: 16px;
+}
+
+.show__notShow {
+  position: fixed;
+
+  right: 0;
+  top: 5px;
+  height: 100vh;
+  width: 400px;
+
+  box-shadow: -4px 0px 10px rgb(0 0 0 / 0.2);
+
+  background: #ebebeb;
+
+  z-index: 10000;
+}
+
+#create_Location__edit {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#form__admin__locate {
+  width: 280px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 195px;
+  margin-left: 65px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+#form__admin__update {
+  width: 280px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 195px;
+  margin-left: 65px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.nameEmail__Location {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.locate__input {
+  margin-left: 10px;
+  margin-top: -12px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  width: 255px;
+  background-color: #e8e9ee;
+  outline: none;
+  border: none;
+}
+.admin__input:focus {
+  outline: none;
+}
+.locate_side {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.create_new__location {
+  width: 100px;
+  height: 30px;
+  background: #1890ff;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  z-index: 1000;
+  padding: 5px;
+}
+.cancel__create__location {
+  width: 100px;
+  padding: 5px;
+  background: #ebebeb;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  z-index: 1000;
+  margin-left: 15px;
+}
+.cancel__create__location:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  color: #111;
+}
+#confirm__delete_location {
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  top: 210px;
+  left: 120px;
+  letter-spacing: 1px;
+}
+#delete__Location {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  margin-left: 70px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.delete_new__admin {
+  background: #f84e4e;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  z-index: 1000;
+  padding: 5px 25px;
+}
+.delete__create {
+  z-index: 1000;
+  border: none;
+  margin-left: 5px;
+  width: 50px;
+}
+.delete__create:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.user__detail__popup__location {
+  z-index: 1;
+  background: #1890ff;
+  border-radius: 8px;
+  display: flex;
+  align-content: flex-end;
+  padding: 0px 12px;
+  position: fixed;
+  bottom: 10px;
+  margin-left: 10px;
+}
+.admin_registerd__pop {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+
+  display: block;
+  margin-top: 10px;
+}
+.admin__black {
+  display: block;
+  float: right;
+  padding-left: 10px;
+  width: 25px;
+  padding-top: 2px;
+  color: #fff;
+}
+#create_Location {
+  position: absolute;
+  top: 150px;
+  left: 135px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.total__location {
+  margin-top: -10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 930px) {
+  .show__notShow {
+    width: 300px;
+    overflow-y: auto;
+  }
+  #form__admin__locate {
+    width: 250px;
+    margin-left: 25px;
+  }
+  #form__admin__update {
+    width: 250px;
+    margin-left: 25px;
+  }
+  .locate__input {
+    width: 220px;
+  }
+  #create_Location {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #delete__Location {
+    width: 260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  #confirm__delete_location {
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    top: 210px;
+    left: 65px;
+    letter-spacing: 1px;
+  }
+  #create_Location__edit {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .location__acount {
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+  }
+  .total__location {
+    margin-top: -4px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .location__acount {
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .location__acount {
+    font-size: 15px;
+  }
+}

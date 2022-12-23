@@ -1,0 +1,124 @@
+.bg__white {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.mainDiv__Login {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  align-items: center;
+}
+.subDiv_of_Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome_login {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.img__chargeLogo {
+  width: 150px;
+  height: 150px;
+  margin-top: -10px;
+}
+.for_Charge {
+  color: #b1d34f;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.for__Time {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.signIn_mainDiv {
+  display: flex;
+  flex-direction: column;
+  background: rgba(240, 240, 240, 0.5);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 20px 20px;
+  gap: 20px;
+}
+.setLoading_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.enterur__email {
+  padding: 5px 10px;
+  border-radius: 8px;
+  width: 280px;
+  border: none;
+  margin-top: -8px;
+}
+.for_password {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.enterur__password {
+  padding: 5px 10px;
+  border-radius: 8px;
+  width: 280px;
+  border: none;
+  background: #fff;
+  margin-top: -8px;
+}
+.submit__type {
+  width: 100px;
+  height: 30px;
+  background: #b1d34f;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  margin-top: 40px;
+  /* padding-top: 20px; */
+  z-index: 1000;
+}
+.mainDivOf_bottom_img {
+  max-width: 100%;
+  z-index: -1;
+}
+.bottomImage__of {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 480px) {
+  .bottomImage__of {
+    max-width: 100%;
+  }
+  .mainDiv__Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .subDiv_of_Login {
+    padding-bottom: 20px;
+  }
+  .img__chargeLogo {
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+  }
+  .signIn_mainDiv {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .enterur__email {
+    width: 240px;
+  }
+  .enterur__password {
+    width: 240px;
+  }
+}

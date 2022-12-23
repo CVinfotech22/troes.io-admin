@@ -1,0 +1,306 @@
+/* .admin__page {
+  padding: 0;
+  margin: 0;
+} */
+
+.admin__information {
+  /* background-color: rgba(58, 114, 222, 0.1); */
+  padding: 30px 0px;
+}
+.admin__black {
+  display: block;
+  float: right;
+  padding-left: 10px;
+  width: 25px;
+  padding-top: 2px;
+  color: #fff;
+}
+.admin__acount {
+  font-weight: bolder;
+  font-size: 30px;
+  /* letter-spacing: 1px; */
+  color: black;
+  margin-left: 20px;
+}
+#form__admin_ADMIN {
+  width: 280px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 100px;
+  margin-left: 65px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+#form__admin_Edit {
+  width: 280px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 100px;
+  margin-left: 65px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.show__notShow {
+  position: fixed;
+
+  right: 0;
+  top: 5px;
+  height: 100vh;
+  width: 400px;
+
+  box-shadow: -4px 0px 10px rgb(0 0 0 / 0.2);
+
+  background: #ebebeb;
+
+  z-index: 10000;
+}
+.create_admin {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.admin__input {
+  margin-left: 10px;
+  margin-top: -12px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  width: 245px;
+  background-color: #e8e9ee;
+  outline: none;
+  border: none;
+}
+.admin__input:focus {
+  outline: none;
+}
+.nameEmail__admin {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.create_new__admin {
+  height: 30px;
+  background: #1890ff;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  z-index: 1000;
+  padding: 2px 9px;
+}
+.cancel__create {
+  width: 100px;
+  height: 30px;
+  background: #ebebeb;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  z-index: 1000;
+  margin-left: 15px;
+}
+.cancel__create:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#delete__create:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.update_new__admin {
+  height: 30px;
+  background: #1890ff;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  z-index: 1000;
+  padding: 5px 20px;
+}
+.update_new__admin:hover {
+  box-shadow: rgba(48, 67, 150, 0.4) 0px 7px 29px 0px;
+}
+
+#delete__admin {
+  width: 280px;
+  background: #e8e9ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 260px;
+  margin-left: 65px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+#confirm__delete_Admin {
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  top: 210px;
+  left: 130px;
+  letter-spacing: 1px;
+}
+.delete_new__admin {
+  background: #f84e4e;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  z-index: 1000;
+  padding: 5px 25px;
+}
+#delete__create {
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 20px;
+  z-index: 1000;
+  margin-left: 15px;
+  border: none;
+}
+.update__table {
+  border: none;
+  background-color: #fff;
+  padding-left: 17px;
+}
+.delte__table {
+  border: none;
+  background-color: #fff;
+  padding-left: 12px;
+}
+.delete__update {
+  border: none;
+  background-color: #fff;
+
+  width: 20px;
+  padding-left: 20px;
+}
+
+.user__detail__popup__Admin {
+  z-index: 1;
+  background: #1890ff;
+  border-radius: 8px;
+  display: flex;
+  align-content: flex-end;
+  padding: 0px 12px;
+  position: fixed;
+  bottom: 10px;
+  margin-left: 10px;
+}
+.admin_registerd__pop {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+}
+.s_Name {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.password__span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#handle_Admin_Delete_cancel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+.toatl_adminss {
+  margin-top: -15px;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 930px) {
+  .show__notShow {
+    width: 300px;
+    overflow-y: auto;
+  }
+  #form__admin_ADMIN {
+    width: 250px;
+    margin-left: 25px;
+  }
+  #form__admin_Edit {
+    width: 250px;
+    margin-left: 25px;
+  }
+  .admin__input {
+    width: 220px;
+  }
+  .create_admin {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #confirm__delete_Admin {
+    left: 70px;
+  }
+  #delete__admin {
+    width: 260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  #handle_Admin_Delete_cancel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+  }
+  .confirm__delete {
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    top: 210px;
+    left: 65px;
+    letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .admin__acount {
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+  }
+  .show__notShow {
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .admin__acount {
+    font-size: 16px;
+  }
+  .toatl_adminss {
+    margin-top: 0px;
+  }
+}
